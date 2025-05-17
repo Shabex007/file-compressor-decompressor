@@ -30,8 +30,8 @@ A Java-based command-line tool for compressing and decompressing files using GZI
 
 2. **Choose an option:**:
 
-   - 1. Compress a file
-   - 2. Decompress a file
+   - Compress a file
+   - Decompress a file
 
 3. **Enter the full file path when prompted**
 
