@@ -1,13 +1,6 @@
 # File Compressor/Decompressor 🗜️
 
-![Java](https://img.shields.io/badge/Java-17-blue) ![Utility](https://img.shields.io/badge/Type-Utility-success) ![License](https://img.shields.io/badge/License-MIT-green)
-
 A Java-based command-line tool for compressing and decompressing files using GZIP compression.
-
-## Repository Information
-
-- **Name**: java-file-compressor
-- **Description**: "A simple yet powerful file compression/decompression tool using GZIP algorithm"
 
 ## Features
 
@@ -33,14 +26,16 @@ A Java-based command-line tool for compressing and decompressing files using GZI
 
 ## How to Use
 
-1. Run the program
-2. Choose an option:
+1. **Run the program**
 
-- 1.Compress a file
-- 2.Decompress a file
+2. **Choose an option:**:
 
-3. Enter the full file path when prompted
-4. View operation results
+   - 1. Compress a file
+   - 2. Decompress a file
+
+3. **Enter the full file path when prompted**
+
+4. **View operation results**
 
 ## Technical Implementation
 
