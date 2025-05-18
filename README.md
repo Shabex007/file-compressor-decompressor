@@ -47,3 +47,49 @@ A Java-based command-line tool for compressing and decompressing files using GZI
   - Directory check
   - Extension validation (.gz for decompression)
 - Stream-based processing for memory efficiency
+
+## Example Output
+
+```bash
+------ File Compressor/Decompressor ------
+1. Compress a file
+2. Decompress a file
+Choose an option (1 or 2): 1
+Enter the file path to compress: C:\Users\John\Documents\report.txt
+✅ File compressed successfully: C:\Users\John\Documents\report.txt.gz
+```
+
+```bash
+------ File Compressor/Decompressor ------
+1. Compress a file
+2. Decompress a file
+Choose an option (1 or 2): 1
+Enter the file path to compress: C:\Users\John\Documents\invalid_file.txt
+Error: File does not exist at the given path.
+```
+
+```bash
+------ File Compressor/Decompressor ------
+1. Compress a file
+2. Decompress a file
+Choose an option (1 or 2): 2
+Enter the .gz file path to decompress: C:\Users\John\Documents\report.txt.gz
+✅ File decompressed successfully: C:\Users\John\Documents\report.txt
+```
+
+```bash
+------ File Compressor/Decompressor ------
+1. Compress a file
+2. Decompress a file
+Choose an option (1 or 2): 2
+Enter the .gz file path to decompress: C:\Users\John\Documents\data.zip
+Error: Only .gz files can be decompressed with this tool.
+```
+
+```bash
+------ File Compressor/Decompressor ------
+1. Compress a file
+2. Decompress a file
+Choose an option (1 or 2): 3
+Invalid choice.
+```
